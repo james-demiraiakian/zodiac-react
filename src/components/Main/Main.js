@@ -8,7 +8,7 @@ import bagr from '../../background.jpg'
 
 export default function Main() {
   return (
-    <main style={{ backgroundImage: `url(${bagr})` }}>
+    <main className="main" style={{ backgroundImage: `url(${bagr})` }}>
       {zodiacs.map((zodiac) => (
         <Zodiac key={zodiac.name} {...zodiac} />
       ))}

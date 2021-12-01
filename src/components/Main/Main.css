@@ -1,0 +1,8 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vw;
+  background-size: 100vw;
+  position: relative;
+  margin-bottom: 30px;
+}

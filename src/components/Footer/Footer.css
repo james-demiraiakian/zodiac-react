@@ -1,0 +1,12 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 2vw;
+  color: rgb(119, 90, 199);
+  text-shadow: 2px 2px 3px rgb(119, 90, 199);
+  background: rgb(47, 17, 88);
+  background: linear-gradient(0deg, rgba(47, 17, 88, 1) 0%, rgba(32, 31, 32) 100%);
+  background-blend-mode: darken;
+  width: 100vw;
+  text-align: center;
+}
